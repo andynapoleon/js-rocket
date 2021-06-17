@@ -1,3 +1,16 @@
+// this function does this.
+var doCoolStuff = function () {
+	
+	// changing back and forth between class names
+	var currentClassName = document.getElementById('cool').className;
+
+	if (currentClassName == 'cool') {
+		document.getElementById('cool').className = 'cool red';
+	} else {
+		document.getElementById('cool').className = 'cool';
+	}
+}
+
 var sayMyName = function (name) {
 	alert('My name is' + name);
 }
